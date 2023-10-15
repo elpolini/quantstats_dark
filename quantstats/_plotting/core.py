@@ -44,41 +44,43 @@ _sns.set(
     font_scale=1.1,
     rc={
         "figure.figsize": (10, 6),
-        "axes.facecolor": "white",
-        "figure.facecolor": "white",
-        "grid.color": "#dddddd",
+        "axes.facecolor": "#17181B",  # Negro profundo
+        "figure.facecolor": "#17181B",  # Negro profundo
+        "grid.color": "#A3A4A6",  # Gris claro
         "grid.linewidth": 0.5,
         "lines.linewidth": 1.5,
-        "text.color": "#333333",
-        "xtick.color": "#666666",
-        "ytick.color": "#666666",
+        "text.color": "#A3A4A6",  # Gris claro
+        "xtick.color": "#A3A4A6",  # Gris claro
+        "ytick.color": "#A3A4A6",  # Gris claro
     },
 )
 
 _FLATUI_COLORS = [
-    "#FEDD78",
-    "#348DC1",
-    "#BA516B",
-    "#4FA487",
-    "#9B59B6",
-    "#613F66",
-    "#84B082",
-    "#DC136C",
-    "#559CAD",
-    "#4A5899",
+    "#DC3545",  # Rojo
+    "#343A40",  # Gris oscuro
+    "#212529",  # Gris carbón
+    "#007BFF",  # Azul
+    "#0C63CE",  # Azul oscuro
+    "#17181B",  # Negro profundo
+    "#28A745",  # Verde
+    "#DC3545",  # Rojo
+    "#343A40",  # Gris oscuro
+    "#212529",  # Gris carbón
 ]
+
 _GRAYSCALE_COLORS = [
-    "#000000",
-    "#222222",
-    "#555555",
-    "#888888",
-    "#AAAAAA",
-    "#CCCCCC",
-    "#EEEEEE",
-    "#333333",
-    "#666666",
-    "#999999",
+    "#17181B",  # Negro profundo
+    "#212529",  # Gris carbón
+    "#A3A4A6",  # Gris claro
+    "#6C757D",  # Gris medio
+    "#A3A4A6",  # Gris claro
+    "#6C757D",  # Gris medio
+    "#A3A4A6",  # Gris claro
+    "#212529",  # Gris carbón
+    "#6C757D",  # Gris medio
+    "#A3A4A6",  # Gris claro
 ]
+
 
 
 def _get_colors(grayscale):
