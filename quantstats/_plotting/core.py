@@ -44,8 +44,8 @@ _sns.set(
     font_scale=1.1,
     rc={
         "figure.figsize": (10, 6),
-        "axes.facecolor": "#17181B",  # Negro profundo
-        "figure.facecolor": "#17181B",  # Negro profundo
+        "axes.facecolor": "black",  # Negro profundo
+        "figure.facecolor": "black",  # Negro profundo
         "grid.color": "#A3A4A6",  # Gris claro
         "grid.linewidth": 0.5,
         "lines.linewidth": 1.5,
